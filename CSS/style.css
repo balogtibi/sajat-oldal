@@ -564,3 +564,29 @@ textarea.input-control{
     color: var(--text-white);
     border-color: initial;
 }
+
+@media (max-width: 768px) {
+    body {
+      font-size: 14px; 
+      margin: 10px;
+    }
+  
+    .container {
+      flex-direction: column; 
+      padding: 5px;
+    }
+  
+    header {
+      font-size: 18px;
+      text-align: center;
+    }
+  
+    img {
+      width: 100%;
+      height: auto;
+    }
+  
+    nav {
+      display: block;
+    }
+}
